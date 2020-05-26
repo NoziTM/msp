@@ -4,7 +4,7 @@ const token = process.env.token;
 const client = new Discord.Client();
 var prefix = "*";
 
-client.login(ntmsalope);
+client.login(process.env.TOKEN1);
 
 client.on('ready', async () => {
     console.log("connected")
